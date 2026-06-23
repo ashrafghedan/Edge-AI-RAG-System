@@ -1,0 +1,15 @@
+{
+  "name": "edge-rag-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n llama,backend,frontend -c magenta,cyan,green \"npm:dev:llama\" \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:llama": "node ./scripts/run_llama_cpp.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend_api run dev",
+    "build": "npm --prefix frontend run build"
+  }
+}

@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venv-windows/
+venv/
+data/
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.env
+_dl/
+*.log
+.claude/
+
+# Report artifacts and sample corpora (personal data / copyrighted) — keep local only
+report/
+rag_story_corpus/
+.vscode/

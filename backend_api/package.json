@@ -1,0 +1,8 @@
+{
+  "name": "edge-rag-backend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "node ../scripts/run_backend_dev.js"
+  }
+}
