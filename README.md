@@ -50,8 +50,8 @@ Install these first:
 ### 1. Clone and enter the project
 
 ```bash
-git clone https://github.com/ashrafghedan/graduation-project.git
-cd graduation-project
+git clone https://github.com/ashrafghedan/Edge-AI-RAG-System.git
+cd Edge-AI-RAG-System
 ```
 
 ### 2. Python backend dependencies
